@@ -1,0 +1,30 @@
+/* The big container holding all boxes */
+
+
+header{
+  position: absolute;
+  top: 20px;
+  left: 50px;
+  padding: 10px;
+}
+.weather-grid {
+  display: grid;                      /* Turn on grid system */
+  grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+  gap: 10px;                          /* space between boxes */
+  max-width: 1200px;
+  margin: 50px auto;                 /* center the whole grid */
+  padding: 20px;
+  background: #f0f8ff;
+}
+
+/* Each box */
+.box {
+  background-color: skyblue;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 30px;
+  text-align: center;
+  border-radius: 8px;
+  height: 100px;
+}
